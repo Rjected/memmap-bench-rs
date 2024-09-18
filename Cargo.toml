@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-clap = "4"
-libc = "0.2"
-rand = "0.8.5"
+clap = { version = "4.3", features = ["derive"] }
+memmap2 = "0.5"
+nix = "0.26"
+rand = "0.8"
